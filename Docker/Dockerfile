@@ -51,8 +51,8 @@ RUN dpkg -i libfranka-*.deb
 
 RUN mkdir -p /home/ros2_ws/src
 WORKDIR /home/ros2_ws
-RUN git clone https://github.com/frankaemika/franka_ros2.git src/franka_ros2
-RUN source /opt/ros/humble/setup.bash && colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+# RUN git clone https://github.com/frankaemika/franka_ros2.git src/franka_ros2
+# RUN source /opt/ros/humble/setup.bash && colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo "source /home/ros2_ws/install/setup.bash" >> ~/.bashrc
 

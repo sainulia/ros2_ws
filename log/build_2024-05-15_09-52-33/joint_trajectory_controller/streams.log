@@ -1,0 +1,119 @@
+[0.006s] Invoking command in '/home/ros2_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/franka_ros2/joint_trajectory_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/joint_trajectory_controller
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.067s] -- The CXX compiler identification is GNU 11.4.0
+[0.071s] -- Detecting C compiler ABI info
+[0.107s] -- Detecting C compiler ABI info - done
+[0.111s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.111s] -- Detecting C compile features
+[0.112s] -- Detecting C compile features - done
+[0.113s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.162s] -- Detecting CXX compile features
+[0.162s] -- Detecting CXX compile features - done
+[0.164s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.234s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.285s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.288s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.290s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.290s] -- BACKWARD_HAS_UNWIND=1
+[0.290s] -- BACKWARD_HAS_BACKTRACE=0
+[0.290s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.290s] -- BACKWARD_HAS_DW=1
+[0.290s] -- BACKWARD_HAS_BFD=0
+[0.290s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.291s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.293s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.311s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.319s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.685s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.686s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.745s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.772s] -- Looking for pthread.h
+[0.823s] -- Looking for pthread.h - found
+[0.823s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.874s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.875s] -- Found Threads: TRUE  
+[0.979s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.991s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.030s] -- Found controller_interface: 2.40.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.315s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.316s] -- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.481s] -- Found ros2_control_test_assets: 2.40.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.482s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.485s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.486s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.791s] -- Configuring done
+[1.820s] -- Generating done
+[1.821s] -- Build files have been written to: /home/ros2_ws/build/joint_trajectory_controller
+[1.828s] Invoked command in '/home/ros2_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/franka_ros2/joint_trajectory_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/joint_trajectory_controller
+[1.829s] Invoking command in '/home/ros2_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/joint_trajectory_controller -- -j20 -l20
+[1.854s] [  6%] [34m[1mRunning `/usr/bin/cmake -E copy /home/ros2_ws/src/franka_ros2/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/ros2_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp`[0m
+[1.854s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.854s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.854s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.862s] [ 31%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ros2_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/ros2_ws/src/franka_ros2/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`[0m
+[2.293s] [ 31%] Built target joint_trajectory_controller_parameters
+[2.312s] [ 37%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[2.320s] [ 43%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[2.687s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.740s] [ 50%] Built target gmock_main
+[6.850s] [ 56%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.886s] [ 56%] Built target gmock
+[6.896s] [ 62%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[10.103s] [ 68%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[10.240s] [ 68%] Built target test_load_joint_trajectory_controller
+[14.836s] [ 75%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[14.961s] [ 75%] Built target joint_trajectory_controller
+[14.973s] [ 87%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[14.973s] [ 87%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[19.503s] [ 93%] [32m[1mLinking CXX executable test_trajectory[0m
+[19.620s] [ 93%] Built target test_trajectory
+[23.980s] [100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[24.102s] [100%] Built target test_trajectory_controller
+[24.108s] Invoked command in '/home/ros2_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/joint_trajectory_controller -- -j20 -l20
+[24.127s] Invoking command in '/home/ros2_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/joint_trajectory_controller
+[24.130s] -- Install configuration: "Release"
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/joint_trajectory_plugin.xml
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[24.130s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[24.131s] -- Set runtime path of "/home/ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[24.131s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[24.131s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[24.131s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[24.131s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-release.cmake
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[24.132s] -- Installing: /home/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[24.133s] Invoked command in '/home/ros2_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/joint_trajectory_controller

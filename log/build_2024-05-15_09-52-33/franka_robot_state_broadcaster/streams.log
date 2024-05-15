@@ -1,0 +1,114 @@
+[0.013s] Invoking command in '/home/ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_semantic_components/lib:/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2_ws/src/franka_ros2/franka_robot_state_broadcaster -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/franka_robot_state_broadcaster
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.120s] -- Detecting C compiler ABI info - done
+[0.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.124s] -- Detecting C compile features
+[0.124s] -- Detecting C compile features - done
+[0.126s] -- Detecting CXX compiler ABI info
+[0.168s] -- Detecting CXX compiler ABI info - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.172s] -- Detecting CXX compile features
+[0.173s] -- Detecting CXX compile features - done
+[0.174s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.296s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.314s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.317s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.322s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.351s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.634s] -- Found controller_interface: 2.40.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.701s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.722s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.748s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.760s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.764s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.774s] -- Looking for pthread.h
+[0.811s] -- Looking for pthread.h - found
+[0.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.849s] -- Found Threads: TRUE  
+[0.974s] -- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.098s] -- Found franka_msgs: 0.1.13 (/home/ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.181s] -- Found franka_semantic_components: 0.1.0 (/home/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.357s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.359s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.372s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.024s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.025s] -- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[2.026s] -- Found ament_cmake_copyright: 0.12.10 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[2.028s] -- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.029s] -- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.030s] -- Found ament_cmake_lint_cmake: 0.12.10 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[2.031s] -- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.032s] -- Found ament_cmake_xmllint: 0.12.10 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[2.033s] -- Found ros2_control_test_assets: 2.40.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.036s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.039s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.040s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.219s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.219s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.220s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.434s] -- Configuring done
+[2.478s] -- Generating done
+[2.479s] -- Build files have been written to: /home/ros2_ws/build/franka_robot_state_broadcaster
+[2.487s] Invoked command in '/home/ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_semantic_components/lib:/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2_ws/src/franka_ros2/franka_robot_state_broadcaster -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/franka_robot_state_broadcaster
+[2.487s] Invoking command in '/home/ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_semantic_components/lib:/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2_ws/build/franka_robot_state_broadcaster -- -j20 -l20
+[2.512s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ros2_ws/build/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters/include//franka_robot_state_broadcaster_parameters.hpp /home/ros2_ws/src/franka_ros2/franka_robot_state_broadcaster/src/franka_robot_state_broadcaster_parameters.yaml `[0m
+[2.512s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.512s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.512s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.589s] [ 33%] Built target franka_robot_state_broadcaster_parameters
+[2.600s] [ 41%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_state_broadcaster.cpp.o[0m
+[2.920s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.955s] [ 50%] Built target gmock_main
+[8.299s] [ 58%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.340s] [ 58%] Built target gmock
+[10.005s] [ 66%] [32m[1mLinking CXX shared library libfranka_robot_state_broadcaster.so[0m
+[10.125s] [ 66%] Built target franka_robot_state_broadcaster
+[10.138s] [ 83%] [32mBuilding CXX object CMakeFiles/test_load_franka_robot_state_broadcaster.dir/test/test_load_franka_robot_state_broadcaster.cpp.o[0m
+[10.138s] [ 83%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster_test.dir/test/test_franka_robot_state_broadcaster.cpp.o[0m
+[13.101s] [ 91%] [32m[1mLinking CXX executable test_load_franka_robot_state_broadcaster[0m
+[13.243s] [ 91%] Built target test_load_franka_robot_state_broadcaster
+[13.319s] [100%] [32m[1mLinking CXX executable franka_robot_state_broadcaster_test[0m
+[13.464s] [100%] Built target franka_robot_state_broadcaster_test
+[13.470s] Invoked command in '/home/ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_semantic_components/lib:/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2_ws/build/franka_robot_state_broadcaster -- -j20 -l20
+[13.485s] Invoking command in '/home/ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_semantic_components/lib:/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2_ws/build/franka_robot_state_broadcaster
+[13.488s] -- Install configuration: "Release"
+[13.489s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters
+[13.489s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters/franka_robot_state_broadcaster_parameters.hpp
+[13.489s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/franka_robot_state_broadcaster.xml
+[13.489s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so
+[13.489s] -- Set runtime path of "/home/ros2_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so" to ""
+[13.489s] -- Up-to-date: /home/ros2_ws/install/franka_robot_state_broadcaster/include
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster
+[13.490s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.491s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[13.491s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.491s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake
+[13.491s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake
+[13.491s] -- Installing: /home/ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml
+[13.492s] Invoked command in '/home/ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_semantic_components:/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_semantic_components/lib:/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2_ws/build/franka_robot_state_broadcaster

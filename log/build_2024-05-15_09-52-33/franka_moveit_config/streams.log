@@ -1,0 +1,61 @@
+[0.009s] Invoking command in '/home/ros2_ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_gripper/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2_ws/src/franka_ros2/franka_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/franka_moveit_config
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.255s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.306s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.494s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.495s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.495s] -- Added test 'lint_cmake' to check CMake code style
+[0.496s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.496s] -- Added test 'xmllint' to check XML markup files
+[0.497s] -- Configuring done
+[0.498s] -- Generating done
+[0.499s] -- Build files have been written to: /home/ros2_ws/build/franka_moveit_config
+[0.502s] Invoked command in '/home/ros2_ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_gripper/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2_ws/src/franka_ros2/franka_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/franka_moveit_config
+[0.502s] Invoking command in '/home/ros2_ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_gripper/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2_ws/build/franka_moveit_config -- -j20 -l20
+[0.521s] Invoked command in '/home/ros2_ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_gripper/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2_ws/build/franka_moveit_config -- -j20 -l20
+[0.531s] Invoking command in '/home/ros2_ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_gripper/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2_ws/build/franka_moveit_config
+[0.534s] -- Install configuration: "Release"
+[0.534s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/panda_controllers.yaml
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/panda_ros_controllers.yaml
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/ompl_planning.yaml
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/kinematics.yaml
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/launch
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/launch/moveit.launch.py
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/launch/move_group.launch.py
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/panda_arm_hand.xacro
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/panda_arm.srdf.xacro
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/group_definition.xacro
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/hand.xacro
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/panda_arm.xacro
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/rviz
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/rviz/moveit.rviz
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/ament_index/resource_index/package_run_dependencies/franka_moveit_config
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/ament_index/resource_index/parent_prefix_path/franka_moveit_config
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/ament_prefix_path.sh
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/ament_prefix_path.dsv
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/path.sh
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/path.dsv
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.bash
+[0.535s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.sh
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.zsh
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.dsv
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.dsv
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/ament_index/resource_index/packages/franka_moveit_config
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/cmake/franka_moveit_configConfig.cmake
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/cmake/franka_moveit_configConfig-version.cmake
+[0.536s] -- Installing: /home/ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.xml
+[0.537s] Invoked command in '/home/ros2_ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/franka_hardware:/home/ros2_ws/install/franka_gripper:/home/ros2_ws/install/franka_msgs:/home/ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/franka_hardware/lib:/home/ros2_ws/install/franka_gripper/lib:/home/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2_ws/build/franka_moveit_config
