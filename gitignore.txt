@@ -153,6 +153,6 @@ dmypy.json
 cython_debug/
 
 # 
-build
-install
-log
+build/
+install/
+log/
