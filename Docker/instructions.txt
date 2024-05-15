@@ -1,0 +1,18 @@
+#0 Building ros2_humble image
+
+  docker build -t {image_name} .
+  docker build -t ros2_humble .                          //example
+
+#1 Create container
+
+  ./contaniner_create.sh {container_name} {image_name}
+  ./contaniner_create.sh humble ros2_humble             //example
+
+#2 Start container 
+
+  ./start_ros2 {container_name}
+  
+  
+#2 Stop container 
+
+  ./stop_ros2 {container_name}  
